@@ -13,12 +13,10 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">
-        {% if site.description %}
-          {{ site.description }}
-        {% elsif site.email %}
+        {% if site.email %}
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        {% else %}
-          {{ site.description }}
+        {% else %}         
+          {{ site.description | default: site.github.project_tagline }}
         {% endif %}
       </h2>
       {% if site.github.is_project_page %}
