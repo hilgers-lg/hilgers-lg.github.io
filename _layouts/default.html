@@ -15,7 +15,7 @@
       <h2 class="project-tagline">
         {% if site.description %}
           {{ site.description }}
-        {% elseif site.email %}
+        {% elsif site.email %}
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         {% else %}
           {{ site.description }}
