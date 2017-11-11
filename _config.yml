@@ -1,7 +1,6 @@
 theme: jekyll-theme-cayman
 title: Hilgers Liegenschaften
-description:
-email: info@hilgers-liegenschaften.de
+email: "info@hilgers-liegenschaften.de"
 show_downloads: false
 google_analytics: false
 github:
